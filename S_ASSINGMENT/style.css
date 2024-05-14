@@ -1,0 +1,640 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-family: helvetica neue,Helvetica,Arial,sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  /* Navigation Start  */
+  .n{
+  
+    background: url(Media/7up-simple-color-mobile.jpg);
+    height: 4em; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+  
+  .logo img {
+    width: 140px;
+    margin-left: 15px;
+    margin-top: 80px;
+  }
+  
+  .n a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 25px;
+  }
+  
+  .n a:hover{
+  
+    color: darkgreen;
+    
+  }
+/* Navigation End  */
+
+/* Head Section Start  */
+
+  .head .head-section {
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+  }
+  
+  .head-section .left {
+    height: 100vh;
+    width: 30%;
+    background-color: white;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  
+  .head-section .right {
+    height: 100%;
+    width: 70%;
+    background: url(Media/7up_featured.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .symbols {
+    height: 100%;
+    width: 100%;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .head-section .left img {
+    width: 24.25rem;
+    height: 24.25rem;
+  }
+  
+  .head-section .left .content {
+    text-align: center;
+  }
+  
+  .head-section .left .content h3 {
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: #00a363;
+    margin-bottom: 1.25rem;
+  }
+  
+  .head-section .left .content button.BT-0 {
+    position: relative;
+    overflow: hidden;
+    color: #00a363; 
+    border: 4px solid #00a363; 
+    padding: 14px 16px; 
+    font-size: 20px; 
+    width:15.625rem;
+    font-size: 1.5625rem;
+    cursor: pointer; 
+    background-color: white;
+    font-weight: bold;
+  } 
+
+  .head-section .left .content button.BT-0 :hover{
+    color: #fff!important;
+  }
+  
+  /* Head Section End  */
+
+  /* Second Section Strat  */
+
+  .second {
+    height: 100%;
+    width: 100%;
+  }
+  .second .main {
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+  }
+  
+  .second .main .l-main {
+    height: 100%;
+    width: 60%;
+    background: url(Media/7up-simple-color-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .second .main .r-main {
+    height: 100%;
+    width: 60%;
+    background: url(Media/7up-simple-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    text-align: center;
+  }
+  
+  .second .main .l-main h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 0.9375rem;
+  }
+  
+  .second .main .l-main p {
+    color: white;
+    font-weight: bold;
+    font-size: 1.625rem;
+    margin-top: 0.9375rem;
+  }
+  .second .main .l-main button {
+    font-size: 1.5625rem;
+    padding: 0.75rem;
+    margin-top: 1.9375rem;
+    font-weight: bold;
+    color: #00a363;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  .second .main .l-main .content {
+    margin-top: 7rem;
+    margin-left: 12.5rem;
+  }
+
+/* Second Section End  */
+
+/* Third Section Start  */
+  
+  .third{
+    width: 100%;
+    height: 80vh;
+    background: url(Media/module_cocktail.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .third-content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .third-content .BT-03{
+  
+    background-color: #FE5887;
+    padding: 1.25rem;
+    font-size: 2.5em;
+    color: white;
+    font-weight: bold;
+    border: none;
+    transition: transform 0.3s ease;
+  }
+
+/* Third Section End  */
+
+  /* Foruth Section End  */
+  
+  .fourth{
+    width: 100%;
+    height: 80vh;
+    background: url(Media/module_cooking.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .fourth-content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .fourth-content .BT-04{
+  
+    background-color: #6ba13f;
+    padding: 1.25rem;
+    font-size: 2.5em;
+    color: white;
+    font-weight: bold;
+    border: none;
+    transition: transform 0.3s ease;
+  
+  }
+
+/* Fourth Section End  */
+
+/* Fith Section Start  */
+  
+  .fifth{
+    width: 100%;
+    height: 80vh;
+    background: url(Media/module_seeall.jpg);
+    background-position-y: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+   .fifth-content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fifth-content .BT-05{
+  
+    background-color: #c064ac;
+    padding: 1.25rem;
+    font-size: 2.5em;
+    color: white;
+    font-weight: bold;
+    border: none;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Fifth Section End  */
+
+  /* Sixth Section Start  */
+
+  .six {
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .six .main-six {
+    height: 100%;
+    width: 100%;
+    display: flex;
+  }
+  
+  .six .main-six .left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; 
+  }
+  
+  .can {
+    width: 6.25rem; 
+  }
+  
+   .can-left { 
+    order: 1;
+    margin-left:5rem;
+    height: 18.75rem;
+    width:9.375rem; 
+   }
+
+   .back-1{
+    order: 2;
+    height: 18.75rem;
+    width: 9.375rem;
+    opacity: 0.2;
+    margin-left: 15px; 
+   }
+
+  .can-middle { 
+    order: 3;
+    width: 12.5rem; 
+  } 
+  
+  .back-2{
+    order: 4;
+    height:18.75rem;
+    width: 9.375rem;
+    opacity: 0.2;
+    margin-right: 15px;
+    
+  }
+  
+  .can-right { 
+    order: 5;
+    margin-right:5rem ; 
+    height: 18.75rem;
+    width:9.375rem;
+    
+  } 
+ 
+  .div {
+    position: absolute;
+    bottom: 10px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+  }
+  
+  .div img {
+    width: 285px; 
+  }
+
+  .back-1,
+  .back-2 {
+    position: absolute;
+    bottom: 20;
+  }
+  
+  .back-1 {
+    left: calc(50% - 220px - 15px); 
+  }
+  
+  .back-2 {
+    right: calc(50% - 220px - 15px); 
+  }
+  
+  .six .main-six .right {
+    height: 100%;
+    width: 50%;
+    background-color:#ececec ;
+  
+   background-image: url(Media/product_glass_m-removebg-preview.png);
+   background-repeat: no-repeat;
+   
+    
+   background-repeat:no-repeat;
+   background-position: bottom left;
+
+   position: relative;
+    
+  } 
+  .six .main-six .right h1{
+    color: #00a363;
+    text-transform: uppercase;
+    font-size: 76px;
+    
+  }
+  .six .main-six .right  .content{
+    margin-top: 80px;
+    margin-left: 40px;
+  }
+  span{
+    color: red;
+  }
+  .six .main-six .right  .content p{
+    font-size: 1.2rem;
+    margin-top: 20px;
+   color: #818182;
+  }
+  
+  .six .main-six .right img {
+    position: absolute;
+    bottom: 0;
+    left: 10rem;
+    height: 12.5rem;
+    width: 22.5rem;
+  }
+
+  /* Sixth Section End  */
+
+  /* Footer Start  */
+
+  .foot {
+    height: 100vh; 
+    width: 100%; 
+  
+    
+    background-image: url(Media/footer-bg.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+  
+    position: relative;
+  
+    
+  }
+  
+  .foot .container{
+    background-color: rgb(227, 18, 18);
+    color: white;
+    width: 500px;
+    position: absolute;
+    top: 30%;
+    left: 55%;
+  
+    rotate: -15deg;
+    transform: skew(20deg);
+   
+  }
+  
+  .foot .container p{
+    padding:15px;
+    font-size: 75px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  
+  
+  .foot .banner {
+    position: absolute;
+    bottom: 10px;
+    left: 50%; 
+    transform: translateX(-50%); 
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 130px;
+    width: 1200px;
+  }
+  
+  
+  .banner nav{
+    text-align: center;
+    padding-top: 15px;
+  
+  }
+  
+  .banner nav i{
+    color: #818182;
+    font-size: 1.6rem;
+    margin-left: 30px;
+  }
+  .banner nav i:hover{
+    cursor: pointer;
+    
+  }
+  
+  .banner .nav-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 17px;
+    
+  }
+  
+  .banner .nav-cont a{
+         
+    color:gray;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  .banner .nav-cont a:hover{
+    text-decoration: underline;
+  }
+  
+  .last-p{
+    text-align: center;
+    font-size: 13px;
+    color: #818182;
+    font-weight: bold;
+  }
+  .last-p p{
+  
+    margin-top: 15px;
+     
+  
+  }
+
+  /* Footer End  */
+  
+  /* Animation Start */
+  
+  .head-section .left .content button.BT-0::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%; 
+    width: 100%;
+    height: 100%;
+    background-color: #00a363; 
+    transition: left 0.3s ease; 
+  }
+  
+  .head-section .left .content button.BT-0:hover::before {
+    left: 0;
+  }
+   
+  .second .main .l-main button.BT-01:hover {
+    transform: scale(1.1);
+    cursor: pointer; 
+  }
+  
+  .third-content .BT-03:hover {
+    transform: scale(1.1); 
+    cursor: pointer;
+  }
+  
+  .fourth-content .BT-04:hover {
+    transform: scale(1.1); 
+    cursor: pointer;
+  }
+  
+  .fifth-content .BT-05:hover {
+    transform: scale(1.1); 
+    cursor: pointer;
+  }
+  
+  /* Animation End  */
+  
+  @media (max-width:1900px){
+    .second .main .l-main h2{
+      font-size: 2.5rem;
+    }
+    .second .main .l-main .content{
+      margin-left: 5.5rem;
+    }
+    .second .main .r-main{
+      width: 93%;
+    }
+  }
+  
+  @media (max-width:1440px){
+    .n a {
+      margin-right: 70px;
+    }
+    .second .main .l-main .content{
+      margin-left: 3.5rem;
+    }
+    .second .main .l-main h2 {
+      font-size: 2rem;
+    }
+    .second .main .r-main{
+      width: 86%;
+    }
+    .foot .container{
+      left: 50%;
+    }
+    .six .main-six .right .cont{
+      margin-top: 60px;
+    }
+    .second .main .l-main{
+      width: 37%;
+    }
+  }
+  
+  @media (max-width: 1200px){
+    .n a {
+      margin-right: 70px;
+    }
+    
+  .second .main .l-main .content{
+    margin-left: 0.5rem;
+  }
+  
+  .second .main .r-main{
+    background: url(Media/7up-simple-banner-mobile.jpg);
+    width:150% ;
+  }
+  
+  .second .main .l-main h2{
+    font-size: 2rem;
+  }
+  
+  .back-2{
+    margin-right: 40px;
+    height: 12.75rem;
+    width: 6.375rem;
+  }
+  
+  .back-1{
+    margin-left: 97px;
+    height: 12.75rem;
+    width: 6.375rem;
+  }
+  
+  .six .main-six .right .cont{
+    margin-top: 14px;
+  }
+  
+  .div img{
+    width: 360px;
+    margin-left: 21px;
+  }
+  .foot .container{
+    left: 45%;
+  }
+  
+  .foot .banner{
+    width: 1110px;
+  }
+    
+  }
